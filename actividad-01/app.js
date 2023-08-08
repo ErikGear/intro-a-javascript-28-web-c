@@ -18,10 +18,26 @@ alert("El resultado es: " + multiplication);
 /*
 2. En la consola del navegador escribe un programa que reciba dos números e imprime en pántalla la resta de ambos.
 */
-
+/*
 const number1 = Number(prompt("Digite un número: "));
 const number2 = Number(prompt("Digite otro número: "));
 
 let rest = number1 - number2;
 
 alert("El resultado de restar " + number1 + " - " + number2 + "  = " + rest);
+*/
+
+/*
+3. Escribe un programa que calcule el áre de un ciruclo con un radio r = 5.3. (fórmula: PI * r^2)
+*/
+
+const PI = 3.1416;
+var area = 0;
+
+var r = Number(prompt("Digite el radio del círculo: "));
+
+area = PI * Math.pow(r,2);
+
+areaDosdecimales = area.toFixed(2)
+
+alert("El área del circulo es: " + areaDosdecimales);
