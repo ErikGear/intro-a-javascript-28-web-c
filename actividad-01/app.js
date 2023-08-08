@@ -14,3 +14,14 @@ multiplication = number * 2;
 alert("El resultado es: " + multiplication);
 */
 
+
+/*
+2. En la consola del navegador escribe un programa que reciba dos números e imprime en pántalla la resta de ambos.
+*/
+
+const number1 = Number(prompt("Digite un número: "));
+const number2 = Number(prompt("Digite otro número: "));
+
+let rest = number1 - number2;
+
+alert("El resultado de restar " + number1 + " - " + number2 + "  = " + rest);
