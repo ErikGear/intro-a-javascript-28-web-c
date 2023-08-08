@@ -40,6 +40,9 @@ const multiplicacion = number1 * number2;
 console.log('El resultado de multiplicar '+ number1 + ' x ' + number2 + ' es: ' + multiplicacion);
 */
 
+let firstName = "Erik";
+firstname = "Eduardo";
+
 const nombre = prompt("Dime tu nombre: ");
 const birthyYear = prompt("En que año naciste?: ");
 
