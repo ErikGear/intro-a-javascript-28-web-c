@@ -30,7 +30,7 @@ alert("El resultado de restar " + number1 + " - " + number2 + "  = " + rest);
 /*
 3. Escribe un programa que calcule el áre de un ciruclo con un radio r = 5.3. (fórmula: PI * r^2)
 */
-
+/*
 const PI = 3.1416;
 var area = 0;
 
@@ -41,3 +41,18 @@ area = PI * Math.pow(r,2);
 areaDosdecimales = area.toFixed(2)
 
 alert("El área del circulo es: " + areaDosdecimales);
+*/
+
+/*
+ 
+4. Escribe un programa que calcule el área de un rombo, sabiendo que p = 5cm y D=8cm, d = 6cm (Fórmula: a=D * d /2)
+ */
+
+const D = 8;
+const d = 6;
+
+let area = (D * d) / 2;
+
+let areaDosDecimales = area.toFixed(2);
+
+alert("El area del rombo es: " + areaDosDecimales);
