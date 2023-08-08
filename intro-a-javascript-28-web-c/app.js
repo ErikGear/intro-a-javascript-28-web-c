@@ -28,6 +28,7 @@ console.log(typeof number2);
 
 */
 
+/*
 const number1String = prompt('Digite un numero: ');
 const number2String = prompt('Digite otro numero: ');
 
@@ -37,3 +38,13 @@ const number2 = Number(number2String);
 const multiplicacion = number1 * number2;
 
 console.log('El resultado de multiplicar '+ number1 + ' x ' + number2 + ' es: ' + multiplicacion);
+*/
+
+const nombre = prompt("Dime tu nombre: ");
+const birthyYear = prompt("En que año naciste?: ");
+
+const edad = 2023 - birthyYear;
+
+alert("Hola "+ nombre + '!' + ', tu edad es: ' + edad);
+
+
