@@ -9,8 +9,11 @@ console.log(multiplicacion);
 
  //console.log('La suma de' + number1 + 'con' + number2 + ' = '+ suma);
 
-const number1 = prompt('Dame un numero: ');
-const number2 = prompt('Dame otro numero: ');
+const number1String = prompt('Dame un numero: ');
+const number2String = prompt('Dame otro numero: ');
+
+const number1 = Number(number1String);
+const number2 = Number(number2String);
 
 const sum = number1 + number2;
 const multiplication = number1 * number2;
