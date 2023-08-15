@@ -19,3 +19,17 @@ let personajes = ["Goku", "Krilin", "Vegeta"];
 personajes.push("Gohan");
 
 console.log(personajes);
+
+//Metodo Unshit --> agrega un elemento al inicio del arreglo
+personajes.unshift("Bills");
+
+
+//Metodo POP elimina el ultimo elemento apilado
+personajes.pop();
+
+//Metodo SHIFT elimina el primer elemento del arreglo
+personajes.shift();
+
+
+
+
