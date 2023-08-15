@@ -68,3 +68,11 @@ let numbers2 = [5, 6, 7, 8];
 let numerosCompletos = numbers1.concat(numbers2);
 
 console.log(numerosCompletos);
+
+
+//Método SORT
+
+let letters2 = ["b", "c", "a"];
+
+let letrasOrdenadas = letters2.sort();
+console.log(letrasOrdenadas);
