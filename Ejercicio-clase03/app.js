@@ -1,4 +1,5 @@
 
+/*
 var suma = 0;
 
 var num1 = parseFloat(prompt("Digite un numero: "));
@@ -22,3 +23,11 @@ switch (opcion) {
         alert(`La opción ${opcion} ingresada no es valida`);
         break;
 }
+*/
+
+let mexicoPopulation = 23;
+
+let message = mexicoPopulation >= 33 ?  'Encima': 'Debajo';
+
+console.log(`La población de mexico esta por: ${message}`);
+
