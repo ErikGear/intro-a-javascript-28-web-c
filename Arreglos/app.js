@@ -30,6 +30,12 @@ personajes.pop();
 //Metodo SHIFT elimina el primer elemento del arreglo
 personajes.shift();
 
+//Metodo Split("caracter") --> permite formar arreglos apartir de una cadena de caracteres, indicando un caracter
+
+let papas = "sabritas, Rufles, Chipotles";
+papasArray = papas.split(",");
+
+console.log(papasArray);
 
 
 
