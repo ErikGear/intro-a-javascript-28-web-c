@@ -13,3 +13,9 @@ var frutas = ["mango", "tuna", "uva"];
 
 let includesMango = frutas.includes("mango");
 console.log(includesMango);
+
+//metodo PUSH
+let personajes = ["Goku", "Krilin", "Vegeta"];
+personajes.push("Gohan");
+
+console.log(personajes);
