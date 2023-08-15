@@ -38,4 +38,13 @@ papasArray = papas.split(",");
 console.log(papasArray);
 
 
+//metodo SLICE --> nos permite rebanr cadenas
+
+let palabra = "fresamanzana";
+
+let porcionString = palabra.slice(0,4);
+console.log(porcionString);
+
+
+
 
