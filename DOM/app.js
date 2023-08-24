@@ -2,6 +2,7 @@ const header = document.createElement("h1");
 header.textContent = "Este es un h1";
 
 //al body le agregamos un header mediante JS
+//querySelector, acepta todo tipo de selectores css con # para ids y con . para clases asi como otros tipos de selectores, etc.
 const body = document.querySelector("body");
 body.appendChild(header);
 
